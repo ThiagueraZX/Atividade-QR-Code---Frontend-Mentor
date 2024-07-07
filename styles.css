@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e0e7ff;
+}
+.cartao {
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.qr-code {
+    width: 100%;
+    margin: 0 auto 10px;
+}
+.qr-code img {
+    width: 100%;
+    height: auto;
+}
+.titulo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.descricao {
+    color: #666;
+    font-size: 1rem;
+}
+@media (max-width: 600px) {
+    .title {
+        font-size: 1.2rem;
+    }
+    .description {
+        font-size: 0.9rem;
+    }
+}
